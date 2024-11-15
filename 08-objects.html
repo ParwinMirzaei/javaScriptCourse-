@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Objects</title>
+  </head>
+  <body>
+    <script>
+      /*
+      const product ={
+        name: 'socks',
+        price: 1090
+      };
+      console.log(product);
+      console.log(product.name);
+      console.log(product.price);
+
+      product.name = 'cotton socks';
+      console.log(product);
+
+      product.newProperty = true;
+      console.log(product);
+
+      delete product.newProperty;
+      console.log(product);
+      */
+
+      const product2 = {
+        name: 'shirt',
+        ['delivery-time']: '1 day' //her the brackets are optional
+      }
+      console.log(product2);
+      console.log(product2.name);
+      console.log(product2['name']);
+      console.log(product2['delivery-time']); /* dahs is a minus sign in JS. So in order to use a property like this, we can use to get an object via barcket [] notation and turn the object to an string. */
+    </script>
+  </body>
+</html>
